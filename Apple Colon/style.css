@@ -1,0 +1,686 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+header{
+    background-color: white;
+    color:black;
+    align-items: center;
+    padding: 14px 5px ;
+    position: fixed;
+
+}
+header nav ul li{
+    display: inline;
+    margin-left: 36px;
+}
+
+
+.part-1{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: whitesmoke;
+    
+}
+.part-1 img{
+    height:450px;
+    margin-left:-200px ;
+    margin-top: -20px;
+}
+
+.part-1 button{
+    padding: 12px 25px;
+    border-radius: 30px;
+    border: 1px solid blue;
+    color: blue;
+    font-size:17px ;
+    cursor: pointer;
+
+ margin-top: 480px;
+ margin-left: -350px;
+}
+
+.part-1 button:hover{
+    background-color: blue;
+    color: white;
+}
+
+/* *****************main2************ */
+
+.main2{
+    background-color: whitesmoke;
+    overflow: hidden;
+
+    margin: 20px 0;
+    padding: 35px 0;
+    height: 550px;
+    width: 1262px;
+display:grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main2 img{
+    /* margin-top: 300px; */
+    /* margin-left: -100px; */
+    height: 450px;
+    width: 400px;
+    padding: 100px 0;
+    
+
+}
+.main2 h1 {
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+.main2 h5{
+    font-size: 25px;
+    padding: 10px 0;
+    font-weight: normal;
+}
+
+.btnm2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px 15px;
+    width: 300px;
+}
+
+.btnm2 .B1  {
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border: 1px solid blue;
+    margin-left: -10px;
+}
+
+
+.btnm2 .B2  {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: blue;
+    font-size: 16px;
+    border: 1px solid blue;
+    margin-left: -10px;
+}
+.btnm2 .B2:hover{
+    background-color:blue;
+    color: white;
+
+}
+
+
+
+
+
+
+/* ************main3************* */
+
+.main3{
+    margin: 20px 0;
+    padding: 35px 0;
+    height: 550px;
+    width: 1262px;
+    background-image: url(./hero_iphone_family_a__c7v3mvx3jv42_small_2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.main3 h1 {
+    font-size: 45px;
+    letter-spacing: 1px;
+    margin-left: 80px;
+}
+.main3 h5{
+    font-size: 25px;
+    padding: 10px 0;
+    font-weight: normal;
+}
+
+.btnm3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px 15px;
+    width: 350px;
+}
+
+.btnm3 .B3  {
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border: 1px solid blue;
+    margin-left: -10px;
+}
+
+
+.btnm3 .B4  {
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: blue;
+    font-size: 16px;
+    border: 1px solid blue;
+    margin-left: -10px;
+    background-color: transparent;
+}
+.btnm3 .B4:hover{
+
+    color: white;
+    background-color:blue;
+    
+}
+
+/* *********Main 4************** */
+
+.main4{
+    background-color: white;
+width: 1260px;
+margin-bottom: 20px;
+}
+.under1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub1{
+    height: 550px;
+    width: 49.5%;
+    background: url(./pic1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+     justify-content :center;
+
+}
+.sub1Para{
+height: fit-content;
+margin-top: 50px;
+
+}
+
+.sub1 h2 {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin-left: 60px;
+}
+.sub1 h4{
+    color: white;
+
+    font-size: 19px;
+    padding: 10px 0;
+    font-weight: normal;
+}
+
+.btnL1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px 15px;
+    width: 350px;
+}
+
+.btnL1 .B5  {
+    border-radius: 20px;
+    padding: 8px 20px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: none;
+    margin-left: -10px;
+}
+
+
+.btnL1 .B6  {
+    border-radius: 20px;
+    padding: 8px 15px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid white;
+
+    margin-left: -10px;
+    background-color: transparent;
+}
+.btnL1 .B6:hover{
+
+    color: black;
+    background-color:white;
+    
+}
+
+
+
+.sub2{
+    height: 550px;
+    width: 49.5%;
+    background: url(./pic\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+     justify-content :center;
+}
+.sub2Para{
+    height: fit-content;
+    margin-top: 50px;
+
+    }
+    
+    .sub2 h2 {
+        color: black;
+        font-size: 35px;
+        letter-spacing: 1px;
+        margin-left: 60px;
+    }
+    .sub2 h4{
+        color: black;
+    margin-left: 110px;
+        font-size: 19px;
+        padding: 10px 0;
+        font-weight: normal;
+    }
+    .sub2 h5{
+        color: gray;
+    margin-left: 110px;
+        font-size: 15px;
+        padding-bottom: 10px;
+        font-weight: normal;
+    }
+    
+    .btnsR1{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 5px 15px;
+        width: 350px;
+        width: 350px;
+        margin-left: 30px;
+    }
+    
+    .btnsR1 .B7  {
+        border-radius: 20px;
+        padding: 8px 20px;
+        background-color: blue;
+        color: white;
+        font-size: 16px;
+        border: none;
+        margin-left: -10px;
+    }
+    
+    
+    .btnsR1 .B8  {
+        border-radius: 20px;
+        padding: 8px 15px;
+        color: blue;
+        font-size: 16px;
+        border: 1px solid blue;
+    
+        margin-left: -10px;
+        background-color: transparent;
+    }
+    .btnsR1 .B8:hover{
+    
+        color: white;
+        background-color:blue;
+        
+    }
+
+
+
+
+
+.under2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub3{
+    height: 550px;
+    width: 49.5%;
+    background: url(./pic3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+     justify-content :center;
+}
+
+.sub3para{
+    height: fit-content;
+    margin-top: 50px;
+    
+    }
+    
+    .sub3 h2 {
+        color: white;
+        font-size: 35px;
+        letter-spacing: 1px;
+        margin-left: 120px;
+    }
+    .sub3 h4{
+        color: white;
+    margin-left: 20px;
+        font-size: 22px;
+        padding: 10px 0;
+        font-weight: normal;
+    }
+    
+    .btnL2{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 5px 25px;
+        width: 280px;
+          margin-left: 60px;
+    }
+    
+    .btnL2 .B9  {
+        border-radius: 20px;
+        padding: 8px 20px;
+        background-color: blue;
+        color: white;
+        font-size: 16px;
+        border: none;
+        margin-left: -5px;
+
+    
+    }
+    .btnL2 .B10  {
+        border-radius: 20px;
+        padding: 8px 15px;
+        color: blue;
+        font-size: 16px;
+        border: 1px solid blue;
+    
+        margin-left: -5px;
+        background-color: transparent;
+    }
+    .btnL2 .B10:hover{
+    
+        color: white;
+        background-color:blue;
+        
+    }
+    
+
+
+.sub4{
+    height: 550px;
+    width: 49.5%;
+    background: url(./pic4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+     justify-content :center;
+}
+.sub4para{
+    height: fit-content;
+    margin-top: 50px;
+
+
+    }
+    
+    .sub4 h2 {
+        color: white;
+        font-size: 35px;
+        letter-spacing: 1px;
+        margin-left: 120px;
+
+    }
+    .sub4 h4{
+        color: white;
+    margin-left: 80px;
+        font-size: 19px;
+        padding: 10px 0;
+        font-weight: normal;
+    }
+    .sub4 h5{
+        color: red;
+    margin-left: 150px;
+        font-size: 15px;
+        padding: 5px 0;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+    
+    .btnsR2{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 5px 35px;
+        width: 300px;
+        margin-left: 30px;
+    }
+    
+    .btnsR2 .B11  {
+        border-radius: 20px;
+        padding: 8px 20px;
+        background-color: blue;
+        color: white;
+        font-size: 16px;
+        border: none;
+        margin-left: -10px;
+    }
+    
+    
+    .btnsR2 .B12  {
+        border-radius: 20px;
+        padding: 8px 15px;
+        color: blue;
+        font-size: 16px;
+        border: 1px solid blue;
+    
+        margin-left: -10px;
+        background-color: transparent;
+    }
+    .btnsR2 .B12:hover{
+    
+        color: white;
+        background-color:blue;
+        
+    }
+
+
+
+
+.under3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub5{
+    height: 550px;
+    width: 49.5%;
+    background: url(./pic5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+     justify-content :center;
+}
+
+.sub5para{
+    height: fit-content;
+    margin-top: 50px;
+    
+    }
+    
+    .sub5 h2 {
+        color: black;
+        font-size: 35px;
+        letter-spacing: 1px;
+        margin-left: 120px;
+    }
+    .sub5 h4{
+        color: black;
+    margin-left: 40px;
+        font-size: 20px;
+        padding: 10px 0;
+        font-weight: normal;
+    }
+    
+    .btnL3{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 5px 25px;
+        width: 280px;
+          margin-left: 30px;
+    }
+    
+    .btnL3 .B13  {
+        border-radius: 20px;
+        padding: 8px 20px;
+        background-color: blue;
+        color: white;
+        font-size: 12px;
+        border: none;
+        margin-left: -5px;
+
+    
+    }
+    .btnL3 .B14
+      {
+        border-radius: 20px;
+        padding: 8px 15px;
+        color: blue;
+        font-size: 12px;
+        border: 1px solid blue;
+    
+        margin-left: -5px;
+        background-color: transparent;
+    }
+    .btnL3 .B14:hover{
+    
+        color: white;
+        background-color:blue;
+        
+    }
+
+.sub6{
+    height: 550px;
+    width: 49.5%;
+    background: url(./pic6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+}
+.sub6para{
+    height: fit-content;
+    margin-top: 50px;
+
+
+    }
+    
+    .sub6 h2 {
+        color: black;
+        font-size: 35px;
+        letter-spacing: 1px;
+        margin-left: 120px;
+
+    }
+    .sub6 h4{
+        color: black;
+    margin-left: 80px;
+        font-size: 19px;
+        padding: 10px 0;
+        font-weight: normal;
+    }
+    .btnsR3{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 5px 35px;
+        width: 300px;
+        margin-left: 60px;
+    }
+    
+    .btnsR3 .B15  {
+        border-radius: 20px;
+        padding: 8px 20px;
+        background-color: blue;
+        color: white;
+        font-size: 14px;
+        border: none;
+        margin-left: -10px;
+    }
+    
+.d-block{
+    padding: 20px;
+    
+    
+}
+.carousel-item img{
+    width: 400px;
+    height: 500px;
+    
+    
+}
+.paragraph{
+    font-size: smaller;
+    margin: 30px 100px;
+    color:gray;
+    border-bottom: 1px solid gray;
+
+
+}
+
+
+.footer{
+    margin: 0 100px ;
+ border-bottom: 1px solid gray;
+}
+
+.fIn{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.fIn h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+.fIn h6{
+    font-size: small;
+    color: gray;
+}
+
+.footer h6 {
+    font-size: small;
+    color: gray;
+}
